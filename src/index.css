@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #000000e9 !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cardInput {
+    outline-color: orange;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid white;
+}
+
+.cardInput:focus {
+    background-color: white;
+    border: 3px solid orange;
+    color: black !important;
+}
+
+.button {
+    background-color: #353034;
+}
+
+.button:hover {
+    background-color: orange !important;
+}
+
+.error {
+    color: red;
+}
+
+.icon {
+    color: orange;
+    font-size: 200px;
+}
+
+.link-color
+{
+    color: transparent;
+}
